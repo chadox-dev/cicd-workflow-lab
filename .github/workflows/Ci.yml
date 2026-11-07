@@ -16,4 +16,4 @@ jobs:
         run: echo "Build completed"
 
       - name: Run test
-        run: echo "Test completed"
+        run: python3 -c "assert 2 + 2 == 5"
